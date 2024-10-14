@@ -4,15 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap&subset=cyrillic,latin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 <body>
     <header class="index-header">
-        <div>
+        <div class="logo">
             <a href="#">
-                <img src="Picture/logo.png" alt="WebStudio логотип" width="100" height="30" />
+                <img src="Picture/logo.png" alt="WebStudio логотип" />
             </a>
         </div>
         <nav>
@@ -22,7 +22,7 @@
                 <li><a href="#">Контакти</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="contacts">
             <a href="mailto:info@webstudio.com">info@webstudio.com</a>
             <a href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
@@ -32,29 +32,29 @@
             <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
             <button type="button" class="button-active">Замовити послугу</button>
         </section>
-        <section>
-            <ul>
+        <section class="portfolio-filter">
+            <ul class="filter-buttons">
                 <li>
-                    <h2>Увага до деталей</h2>
-                    <p>Наші дизайнери уважно продумують кожен елемент.</p>
+                    <h2 class="h2-text">Увага до деталей</h2>
+                    <p class="p-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h2>Пунктуальність</h2>
-                    <p>Ми гарантуємо своєчасне використання завданнь.</p>
+                    <h2 class="h2-text">Пунктуальність</h2>
+                    <p class="p-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h2>Планування</h2>
-                    <p>Наші фахівці ретельно планують кожен етап.</p>
+                    <h2 class="h2-text">Планування</h2>
+                    <p class="p-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h2>Сучасні технології</h2>
-                    <p>Ми використовуємо найновіші технологічні рішення.</p>
+                    <h2 class="h2-text">Сучасні технології</h2>
+                    <p class="p-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
+            <h2 class="h2-text">Чим ми займаємося</h2>
+            <ul class="portfolio-list">
                 <li>
                     <img src="Picture/service-1.jpg" alt="Процес дизайну" width="370" height="294" />
                 </li>
@@ -67,40 +67,40 @@
             </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
-            <ul>
+            <h2 class="h2-text">Наша команда</h2>
+            <ul class="portfolio-list">
                 <li>
                     <img src="Picture/member-1.jpg" alt="Ігор Дженченко, Product Designer" width="270" height="260" />
-                    <h3>Ігор Дженченко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="h3-text">Ігор Дженченко</h3>
+                    <p class="p-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="Picture/member-2.jpg" alt="Ольга Рейне, Frontend Developer" width="270" height="260" />
-                    <h3>Ольга Рейне</h3>
-                    <p>Product Designer</p>
+                    <h3 class="h3-text">Ольга Рейне</h3>
+                    <p class="p-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="Picture/member-3.jpg" alt="Микола Тореско, Marketing" width="270" height="260" />
-                    <h3>Микола Тореско</h3>
-                    <p>Marketing</p>
+                    <h3 class="h3-text">Микола Тореско</h3>
+                    <p class="p-text">Marketing</p>
                 </li>
                 <li>
                     <img src="Picture/member-4.jpg" alt="Михайло Бризков, UI Designer" width="270" height="260" />
-                    <h3>Михайло Бризков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="h3-text">Михайло Бризков</h3>
+                    <p class="p-text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
         <div class="container">
-            <a href="#">
-                <img src="Picture/logo.png" alt="WebStudio логотип" width="100" height="30" />
+            <a href="#" class="logo">
+                <img src="Picture/logo.png" alt="WebStudio логотип" />
             </a>
         <address>
-            <p>м. Київ, пр. Лесі Українки, 26</p>
-            <a href="mailto:info@webstudio.com">info@webstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <p class="footer-city">м. Київ, пр. Лесі Українки, 26</p>
+            <a href="mailto:info@webstudio.com" class="footer-text-gray">info@webstudio.com</a>
+            <a href="tel:+380961111111" class="footer-text-gray">+38 096 111 11 11</a>
         </address>
         </div>
     </footer>
