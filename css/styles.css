@@ -234,6 +234,16 @@ nav {
 .contact-info ul li p {
 	margin: 0;
 }
+.icon-phone {
+    width: 10px;
+    height: 16px;
+    transition: stroke 0.3s ease;
+}
+.icon-mail {
+    width: 16px;
+    height: 12px; 
+    transition: stroke 0.3s ease;
+}
 
 /*глобальне скидання стилів*/
 h1, h2, h3, h4, h5, h6, p, ul {
